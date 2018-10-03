@@ -8,3 +8,48 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*-----------------IMAGE + BLOC DE DROITE-------------------------------*/
+
+.container {
+  /* Display: flex me permet de placer mon bloc "content" à droite de mon image "mockup" */
+  display: flex;
+  margin: 100px 100px;
+}
+
+
+/*--------------------BLOC DE DROITE-------------------------------*/
+
+.content {
+  border: 2px solid green;
+  margin-left: 5%;
+  display: flex;
+  /* flex-direction: column => pour aligner les éléments du bloc "content" verticalement */
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+
+/*-------------------------FOOTER--------------------------------------*/
+footer {
+  height: 100px; 
+} 
+
+ul {
+  list-style: none; 
+  /* Display: flex me permet de transformer ma liste horizontale en 
+  liste verticale */ 
+  display: flex;
+  margin: 50px 100px;
+  /* space-around me permet d'espacer les éléments de ma liste */ 
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none; 
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+}
